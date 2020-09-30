@@ -26,6 +26,6 @@ public class LuckySkyScraperMemoized {
     public int toFakeFloor(int realFloor){
         return fakeFloorNumbers.get(realFloor - 1);
     }
-
+  //The end
 
 }
