@@ -17,11 +17,12 @@ public class LuckySkyScraperMemoized {
             } while(fakeFloorNo % 10 == 4 || fakeFloorNo % 100 == 13);
         }
     }
-
+   //method about how to change fakeFloor to RealFloor
     public int toRealFloor(int fakeFloor){
         return fakeFloorNumbers.indexOf(fakeFloor) + 1;
     }
 
+    //method about how change realFloor to FakeFloor
     public int toFakeFloor(int realFloor){
         return fakeFloorNumbers.get(realFloor - 1);
     }
