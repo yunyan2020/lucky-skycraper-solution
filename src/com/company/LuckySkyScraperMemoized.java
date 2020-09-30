@@ -5,6 +5,7 @@ public class LuckySkyScraperMemoized {
 
     private ArrayList<Integer> fakeFloorNumbers = new ArrayList<>();
 
+    //test4 begin the constructor
     public LuckySkyScraperMemoized(int numberOfRealFloors){
         // calculate and memoize all fakeFloorNumbers
         // "build a skyscraper as tall of numberOfRealFloors
